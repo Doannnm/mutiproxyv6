@@ -13,7 +13,7 @@ gen64() {
 }
 install_3proxy() {
     echo "installing 3proxy"
-    URL="https://raw.github.com/Doannnm/mutiproxyv6/blob/main/3proxy-0.9.4.tar.gz"
+    URL="https://github.com/Doannnm/mutiproxyv6/raw/5bcae2917751d4cb3853f16b473432b6f6c96ae1/3proxy-0.9.4.tar.gz"
     wget -qO- $URL | bsdtar -xvf-
     cd 3proxy-3proxy-0.9.4
     make -f Makefile.Linux
